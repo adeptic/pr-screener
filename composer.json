@@ -1,0 +1,24 @@
+{
+    "name": "dirkolbrich/yahoo-finance-query",
+    "description": "A PHP class to query the Yahoo Finance API",
+    "license": "MIT",
+    "keywords": ["yahoo", "finance"],
+    "authors": [
+        {
+            "name": "Dirk Olbrich",
+            "email": "mail@dirkolbrich.de"
+        }
+    ],
+    "require": {
+        "catfan/Medoo": "^1.1",
+		"katzgrau/klogger": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DirkOlbrich\\YahooFinanceQuery\\": "src"
+        }
+    }
+}
